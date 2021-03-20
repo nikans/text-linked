@@ -1,6 +1,6 @@
 # Nova TextLinked custom field
 
-Nova Text Field with a link to a resource (or any URL) on index screen.
+Nova custom Text Field with a link to a resource (or any URL) on index screen.
 
 Nova links ID fields to a resource by default. 
 The custom field is useful if you're using a [text ID field](https://github.com/laravel/nova-issues/issues/268) 
