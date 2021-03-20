@@ -12,7 +12,7 @@ or want to **link a resource's title**, as shown below.
 
 ## Installation
 
-```
+```bash
 composer require nikans/text-linked
 ```
 
@@ -20,7 +20,7 @@ composer require nikans/text-linked
 
 ### Automatically link a resource to a title or text ID field
 
-```
+```php
 TextLinked::make('Title', 'title')
     ->link($this),
     
@@ -30,14 +30,14 @@ TextLinked::make('ID')
 
 ### Link a resource by `uriKey` and `id`
 
-```
+```php
 TextLinked::make('Title', 'title')
     ->linkResource($this->uriKey(), $this->id),
 ```
 
 ### Add a random URL
 
-```
+```php
 TextLinked::make('ID')
     ->url("https://novapackages.com"),
 ```
