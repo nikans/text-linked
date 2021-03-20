@@ -13,7 +13,7 @@ or want to **link a resource's title**, as shown below.
 ## Installation
 
 ```
-composer require nikans/nova-text-linked-field
+composer require nikans/text-linked
 ```
 
 ## Usage options
