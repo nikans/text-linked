@@ -30,7 +30,7 @@ class TextLinked extends Text
      */
     public function linkResource(string $uirKey, string $id)
     {
-        $url = \Nova::path() . "/resources/{$uirKey}/{$id}";
+        $url = \Nova::path() . "resources/{$uirKey}/{$id}";
         return $this->withMeta(['url' => $url]);
     }
 
@@ -53,7 +53,7 @@ class TextLinked extends Text
      */
     public function link($resource)
     {
-        $url = \Nova::path() . "/resources/{$resource->uriKey()}/{$resource->id}";
+        $url = \Nova::path() . "resources/{$resource->uriKey()}/{$resource->id}";
         return $this->withMeta(['url' => $url]);
     }
 }
